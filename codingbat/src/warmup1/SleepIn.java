@@ -1,9 +1,3 @@
-/*
-The parameter weekday is true if it is a weekday,
- and the parameter vacation is true if we are on vacation.
- We sleep in if it is not a weekday or we're on vacation.
- Return true if we sleep in.
-*/
 
 
 package warmup1;
@@ -11,21 +5,33 @@ package warmup1;
 public class SleepIn {
     public static void main(String[] args){
 
-        SleepIn(true,false);
-        SleepIn(false,true);
-        SleepIn(true,true);
-        SleepIn(false,false);
+        /*
+       boolean ans1= SleepIn(false, false);
+        boolean ans2= SleepIn(true, false);
+        boolean ans3= SleepIn(false, true);
+        System.out.println(ans1);
+        System.out.println(ans2);
+        System.out.println(ans3);
+        */
+
+        System.out.println(SleepIn(false, false));
+        System.out.println(SleepIn(true, false));
+        System.out.println(SleepIn(false, true));
+
 
 
     }
-
+/*
+The parameter weekday is true if it is a weekday,
+ and the parameter vacation is true if we are on vacation.
+ We sleep in if it is not a weekday or we're on vacation.
+ Return true if we sleep in.
+*/
     public static boolean SleepIn(boolean weekday,boolean vacation){
-        if(!weekday && vacation) {
-            System.out.println("sleepin");
+        if(weekday==false || vacation==true) {
             return true;
         }
             else{
-                System.out.println("dont sleep");
                 return false;
             }
 
