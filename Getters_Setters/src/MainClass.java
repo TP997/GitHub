@@ -6,6 +6,6 @@ public class MainClass {
         System.out.println(person1.getName());
         System.out.println(person1.getAge());
     }
-    }
+}
 
 

@@ -1,7 +1,7 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class MainClass3 {
+public class Maincalss3 {
     public static void main (String[] args){
         Map<String,Integer> Details = new LinkedHashMap<String,Integer>();
         Details.put("Thanuja",1);
@@ -12,3 +12,6 @@ public class MainClass3 {
         //LinkedHAshMap  --- is used to print the output in order
     }
 }
+
+
+

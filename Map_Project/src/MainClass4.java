@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class MainClass4 {
+public class Mainclass4 {
     public static void main (String[] args){
         Map<Integer,Integer> Details = ConcurrentHashMap<Integer,Integer>();
         Details.put(1,2);
@@ -9,3 +9,7 @@ public class MainClass4 {
         System.out.println(Details);
     }
 }
+
+
+
+
