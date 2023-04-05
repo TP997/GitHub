@@ -5,8 +5,8 @@ public class Add {
 
        int result1 = AddSameNumber(2,3);
         int result2= AddSameNumber(2,2);
-        System.out.println(result1);
-       System.out.println(result2);
+        //System.out.println(result1);
+      // System.out.println(result2);
 
 
     }
